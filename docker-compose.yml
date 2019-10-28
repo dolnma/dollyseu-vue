@@ -1,0 +1,41 @@
+version: '3.7'
+
+services:
+
+  mysql:
+    image: mariadb:10
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dollys
+      dbHost: mysql
+      dbUser: root
+      dbPass: root
+      dbName: dollys
+    volumes:
+      - ./config/mysql/local.cnf:/etc/mysql/conf.d/local.cnf
+      - ./data/db:/var/lib/mysql
+    command:
+      mysqld --innodb-flush-method=littlesync --innodb-use-native-aio=OFF --log_bin=ON
+
+  backend:
+    build: ./src/be
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src/be:/src
+
+  frontend:
+    build: ./src/fe
+    environment:
+      PORT: 3001
+    ports:
+      - 3001:3001
+    volumes:
+      - ./src/fe:/src
+
+  adminer:
+    image: adminer
+    depends_on:
+      - mysql
+    ports:
+      - 8080:8080
