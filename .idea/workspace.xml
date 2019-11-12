@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1343f893-7f30-4c54-9441-a994659305ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/be/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fe/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fe/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/fe/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fe/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/fe/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fe/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/fe/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +57,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572288979842</updated>
-      <workItem from="1572288981421" duration="6867000" />
+      <workItem from="1572288981421" duration="10073000" />
+      <workItem from="1572334865761" duration="1281000" />
     </task>
     <servers />
   </component>
@@ -67,7 +70,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
