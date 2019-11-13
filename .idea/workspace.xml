@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1343f893-7f30-4c54-9441-a994659305ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fe/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/fe/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fe/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fe/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/fe/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fe/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/fe/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +59,7 @@
       <updated>1572288979842</updated>
       <workItem from="1572288981421" duration="10073000" />
       <workItem from="1572334865761" duration="1281000" />
+      <workItem from="1573653911604" duration="2443000" />
     </task>
     <servers />
   </component>

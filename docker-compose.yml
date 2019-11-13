@@ -17,12 +17,12 @@ services:
     command:
       mysqld --innodb-flush-method=littlesync --innodb-use-native-aio=OFF --log_bin=ON
 
-  backend:
-    build: ./src/be
-    ports:
-      - 3000:3000
-    volumes:
-      - ./src/be:/src
+#  backend:
+#    build: ./src/be
+#    ports:
+#      - 3000:3000
+#    volumes:
+#      - ./src/be:/src
 
   frontend:
     build: ./src/fe
@@ -32,6 +32,7 @@ services:
       - 3001:3001
     volumes:
       - ./src/fe:/src
+    tty: true
 
   adminer:
     image: adminer
