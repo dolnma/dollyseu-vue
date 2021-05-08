@@ -24,7 +24,7 @@
       "process": "^0.11.10",
       "reflect-metadata": "^0.1.10",
       "ts-node-dev": "^1.0.0-pre.43",
-      "typeorm": "0.2.20"
+      "typeorm": "0.2.25"
    },
    "scripts": {
       "dev": "ts-node-dev --respawn --transpileOnly src/index.ts"
